@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import gherkin.ast.DataTable;
 
 
 public class Onedimentional {
@@ -21,7 +22,8 @@ public class Onedimentional {
 	
 
 	@When("The user gives valid inputs")
-	public void the_user_gives_valid_inputs(io.cucumber.datatable.DataTable dataTable) {
+	public void the_user_gives_valid_inputs(DataTable dataTable) {
+		
 	    
 	}
 
