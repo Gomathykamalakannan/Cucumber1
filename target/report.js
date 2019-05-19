@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/feature/Add.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/Greens-11/Desktop/Manivannan/selinium/RSM/cucumber1/src/test/resources/feature/Add.feature");
 formatter.feature({
   "name": "To test the add customer Funtionality",
   "description": "",
@@ -8,6 +8,9 @@ formatter.scenario({
   "name": "To verify the customer Id generated",
   "description": "",
   "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in add customers pages",
@@ -62,7 +65,10 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("src/test/resources/feature/addmap.feature");
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("C:/Users/Greens-11/Desktop/Manivannan/selinium/RSM/cucumber1/src/test/resources/feature/addmap.feature");
 formatter.feature({
   "name": "Add tarif",
   "description": "",
@@ -72,6 +78,9 @@ formatter.scenario({
   "name": "Add tariff plan",
   "description": "",
   "keyword": "Scenario"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in home page",
@@ -157,7 +166,10 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("src/test/resources/feature/addtwod.feature");
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("C:/Users/Greens-11/Desktop/Manivannan/selinium/RSM/cucumber1/src/test/resources/feature/addtwod.feature");
 formatter.feature({
   "name": "Tariff",
   "description": "  I want to use this template for my feature file",
@@ -166,7 +178,18 @@ formatter.feature({
 formatter.scenario({
   "name": "To add the tariff plan",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@load"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user add the tarif plan",
@@ -254,16 +277,32 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.uri("src/test/resources/feature/addtwodmap.feature");
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("C:/Users/Greens-11/Desktop/Manivannan/selinium/RSM/cucumber1/src/test/resources/feature/addtwodmap.feature");
 formatter.feature({
   "name": "Add tarifff",
   "description": "  I want to use this template for my feature file",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
 });
 formatter.scenario({
   "name": "Title of your scenario",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in webpage",
@@ -358,11 +397,19 @@ formatter.match({});
 formatter.result({
   "status": "undefined"
 });
-formatter.uri("src/test/resources/feature/adoutne.feature");
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("C:/Users/Greens-11/Desktop/Manivannan/selinium/RSM/cucumber1/src/test/resources/feature/adoutne.feature");
 formatter.feature({
   "name": "Add customer details by using senario outline",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
 });
 formatter.scenarioOutline({
   "name": "Title of your scenario outline",
@@ -450,7 +497,15 @@ formatter.examples({
 formatter.scenario({
   "name": "Title of your scenario outline",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in home pages",
@@ -492,10 +547,21 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Title of your scenario outline",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in home pages",
@@ -537,10 +603,21 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Title of your scenario outline",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in home pages",
@@ -582,10 +659,21 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Title of your scenario outline",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@reg"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "The user is in home pages",
@@ -625,6 +713,9 @@ formatter.match({
   "location": "Senariooutline.see_the_Congratulation_message()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

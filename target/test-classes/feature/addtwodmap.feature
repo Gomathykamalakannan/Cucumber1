@@ -1,4 +1,4 @@
-
+@reg 
 
 Feature: Add tarifff
   I want to use this template for my feature file

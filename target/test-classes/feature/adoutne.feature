@@ -1,3 +1,4 @@
+@reg
 Feature: Add customer details by using senario outline
  
 

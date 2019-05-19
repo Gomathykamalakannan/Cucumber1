@@ -3,7 +3,7 @@
 Feature: Tariff
   I want to use this template for my feature file
 
-
+@smoke @load
   Scenario: To add the tariff plan
     Given The user add the tarif plan
     When The user fill the valid details
