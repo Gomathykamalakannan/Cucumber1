@@ -1,0 +1,137 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4289615696,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Beforeclass()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add tariff plan",
+        "description": "",
+        "id": "add-tarif;add-tariff-plan",
+        "after": [
+          {
+            "result": {
+              "duration": 2575833851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Afterclass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12200061027,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in home page",
+            "match": {
+              "location": "Onemap.the_user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6431805346,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user fill the field",
+            "match": {
+              "location": "Onemap.the_user_fill_the_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Monthly Rental",
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "Free local minutes",
+                  "200"
+                ]
+              },
+              {
+                "cells": [
+                  "Free inter Minutes",
+                  "300"
+                ]
+              },
+              {
+                "cells": [
+                  "Free sms pack",
+                  "400"
+                ]
+              },
+              {
+                "cells": [
+                  "Local per minute charges",
+                  "500"
+                ]
+              },
+              {
+                "cells": [
+                  "International per minute charges",
+                  "400"
+                ]
+              },
+              {
+                "cells": [
+                  "Sms per charges",
+                  "600"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4997150315,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click submit icon",
+            "match": {
+              "location": "Onemap.click_submit_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21586925,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "See message",
+            "match": {
+              "location": "Onemap.see_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add tarif",
+    "description": "",
+    "id": "add-tarif",
+    "keyword": "Feature",
+    "uri": "C:/Users/Greens-11/Desktop/Manivannan/selinium/RSM/cucumber1/src/test/resources/feature/addmap.feature",
+    "tags": []
+  }
+]
